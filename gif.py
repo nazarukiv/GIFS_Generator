@@ -6,7 +6,7 @@ ffmpeg_path = '/opt/homebrew/bin/ffmpeg'
 
 os.environ["IMAGEIO_FFMPEG_EXE"] = ffmpeg_path
 
-clip = os.path.abspath("/Users/ivan/Desktop/IMG_5361.mov")
+clip = os.path.abspath("File_path")
 
 def gifMaker(inputPath, targetFormat):
     outputPath = os.path.splitext(inputPath)[0] + targetFormat
